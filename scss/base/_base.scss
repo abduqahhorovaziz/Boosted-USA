@@ -1,0 +1,40 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.266;
+    color: #000000;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 47px;
+    background-color: $orange-color;
+    border-radius: 35px;
+    color: $white-color !important;
+    line-height: 22px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover{
+        background-color: $orange-color-hover;
+    }
+
+    &:active{
+        transform: translateY(2px);
+    }
+}
+
+.none {
+    display: none;
+}

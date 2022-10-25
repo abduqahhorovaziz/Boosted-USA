@@ -1,0 +1,276 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* Links */
+a, a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type="submit"] {
+  display: inline-block;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.266;
+  color: #000000;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 47px;
+  background-color: #FF4A32;
+  border-radius: 35px;
+  color: #fff !important;
+  line-height: 22px;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+
+.btn:hover {
+  background-color: #e8402a;
+}
+
+.btn:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.none {
+  display: none;
+}
+
+.header__top {
+  padding: 7px 0;
+  background-color: #000;
+}
+
+.header__top p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.nav {
+  padding: 15px 20px 15px 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__logo {
+  margin-right: 113.63px;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 22px;
+          column-gap: 22px;
+}
+
+.nav__item {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav__item:hover .nav__link {
+  color: #FF4A32;
+}
+
+.nav__item:hover .nav__link:after {
+  width: 80%;
+}
+
+.nav__link {
+  position: relative;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.nav__link:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background-color: #FF4A32;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.nav__functions {
+  margin-left: auto;
+}
+
+.nav__functions_item + .nav__functions_item {
+  margin-left: 10px;
+}
+
+.welcome {
+  padding-top: 45px;
+  height: 810px;
+  background-image: url("./../../img/header/background.jpg");
+  background-size: cover;
+  background-position: center 70%;
+}
+
+.welcome__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.welcome__content {
+  text-align: center;
+}
+
+.welcome__title {
+  margin-bottom: 14px;
+  font-size: 44px;
+  line-height: 51px;
+}
+
+.welcome__subtitle {
+  margin-bottom: 22px;
+  letter-spacing: 1px;
+}
+
+.welcome__btn + .welcome__btn {
+  margin-left: 12px;
+}
+
+.partners {
+  padding: 18px;
+  background-color: #000;
+}
+
+.partners__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners__logo + .partners__logo {
+  margin-left: 22px;
+}
+/*# sourceMappingURL=main.css.map */

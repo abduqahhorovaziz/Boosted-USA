@@ -1,0 +1,33 @@
+.welcome {
+    padding-top: 45px;
+    height: 810px;
+    background-image: url('./../../img/header/background.jpg');
+    background-size: cover;
+    background-position: center 70%;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 14px;
+        font-size: 44px;
+        line-height: 51px;
+    }
+
+    &__subtitle{
+        margin-bottom: 22px;
+        letter-spacing: 1px;
+    }
+
+    &__btn + &__btn {
+        margin-left: 12px;
+    }
+}
+
+
