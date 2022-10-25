@@ -1,0 +1,37 @@
+.electric {
+    padding-top: 44px;
+    height: 736px;
+    background-image: url('./../../img/electic/electric-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    &__content {
+        text-align: center;
+    }
+
+    &__text {
+        margin-bottom: 11px;
+        letter-spacing: 1px;
+    }
+
+    &__title {
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 51px;
+    }
+
+
+    &__subtitle {
+        margin: 0 auto;
+        max-width: 488px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    &__btn {
+        padding: 5px 66px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+}
