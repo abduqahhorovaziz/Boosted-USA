@@ -16,11 +16,20 @@
     <!-- STYLE -->
     <link rel="stylesheet" href="./scss/main.css">
 
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header none">
         <div class="container-fluid">
             <div class="header__top">
                 <p>Financing option available at checkout.</p>
@@ -59,7 +68,7 @@
     </header>
 
     <main>
-        <section class="welcome">
+        <section class="welcome none">
             <div class="container-fluid welcome__container">
                 <div class="welcome__content">
                     <h1 class="welcome__title">Welcome to Boosted USA</h1>
@@ -73,7 +82,7 @@
             </div>
         </section>
 
-        <section class="partners">
+        <section class="partners none">
             <div class="container">
                 <div class="partners__wrapper">
                     <img src="./img/partners/electrek.svg" alt="partners-logo" class="partners__logo">
@@ -84,7 +93,7 @@
             </div>
         </section>
 
-        <section class="stock">
+        <section class="stock none">
             <div class="container">
                 <div class="stock__content">
                     <h1 class="stock__title">Looking for Boosted Boards, or Boosted Revs?</h1>
@@ -98,16 +107,16 @@
                         <img src="./img/stock/stock-bg-1.jpg" alt="in-stock" class="stock__img">
                         <div class="stock__text">
                             <img src="./img/icons/stock/bolt.svg" alt="bolt" class="bolt">
-                            <h2>Shop Boosted Boards</h2>
+                            <h3>Shop Boosted Boards</h3>
                             <p>In Stock</p>
                         </div>
                     </div>
 
                     <div class="stock__col right-col">
-                            <img src="./img/stock/stock-bg-2.jpg" alt="in-stock" class="stock__img">
+                        <img src="./img/stock/stock-bg-2.jpg" alt="in-stock" class="stock__img">
                         <div class="stock__text">
                             <img src="./img/icons/stock/bolt.svg" alt="bolt" class="bolt">
-                            <h2>Shop Boosted Revs</h2>
+                            <h3>Shop Boosted Revs</h3>
                             <p>In Stock</p>
                         </div>
                     </div>
@@ -116,17 +125,183 @@
             </div>
         </section>
 
-        <section class="electric">
+        <section class="electric none">
             <div class="container">
                 <div class="electric__content">
                     <p class="electric__text">High-performance</p>
                     <h2 class="electric__title">Electric Skateboards</h2>
-                    <p class="electric__subtitle">Cruising campus, going to work or getting through that long list of errands has never been easier or more fun.</p>
+                    <p class="electric__subtitle">Cruising campus, going to work or getting through that long list of
+                        errands has never been easier or more fun.</p>
                     <a href="#!" class="btn electric__btn">Shop Now</a>
                 </div>
             </div>
         </section>
+
+        <section class="boosted none">
+            <div class="container boosted__container">
+                <div class="boosted__img">
+                    <img src="./img/boosted/Rectangle.jpg" alt="Boosted image">
+                    <img src="./img/boosted/Rectangle-1.jpg" alt="Boosted image">
+                </div>
+                <div class="boosted__content">
+                    <h2 class="boosted__title">Boosted Rev</h2>
+                    <p class="boosted__text">There's never been an electric scooter quite like this. Speed past traffic
+                        at 24 mph. Go up to 22 miles on a single charge. You'll get there in no time at all. Stop and go
+                        with the roll of your thumb. Its intuitive design means there’s almost no learning curve.</p>
+                    <a href="#!" class="btn boosted__btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop none">
+            <div class="container-fluid shop__container">
+
+                <div class="shop__col">
+                    <img src="./img/boosted-shop/Rectangle.jpg" alt="Shop Img" class="shop__img">
+                    <div class="shop__content">
+                        <h3>Shop Boosted Stealth</h3>
+                        <p>IN STOCK</p>
+                    </div>
+                </div>
+
+                <div class="shop__col">
+                    <img src="./img/boosted-shop/Rectangle-1.jpg" alt="Shop Img" class="shop__img">
+                    <div class="shop__content">
+                        <h3>Shop Boosted Plus</h3>
+                        <p>IN STOCK</p>
+                    </div>
+                </div>
+
+                <div class="shop__col">
+                    <img src="./img/boosted-shop/Rectangle-2.jpg" alt="Shop Img" class="shop__img">
+                    <div class="shop__content">
+                        <h3>Shop Boosted Mini</h3>
+                        <p>IN STOCK</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="clips">
+            <div class="container clips__container">
+                <div class="clips__col">
+                    <iframe width="540" height="304" src="https://www.youtube.com/embed/78bXV1ZqQWI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="clips__col">
+                    <iframe width="540" height="304" src="https://www.youtube.com/embed/oAQxk9dOJ8k"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="accessories">
+            <div class="container-fluid">
+                <div class="accessories__header">
+                    <div class="accessories__title">Looking for Accessories?</div>
+                    <span class="horizontal-line"></span>
+                </div>
+                <div class="accessories__slider">
+                    <div class="slider owl-carousel owl-theme">
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle-4.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__content">
+                                <p class="slide__title">Rev Tube</p>
+                                <p class="slide__price">$16.00 <span class="slide__old-price">$19.00</span></p>
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle-5.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__content">
+                                <p class="slide__title">Boosted Rev Stem Catch</p>
+                                <p class="slide__price">$19.00 <span class="slide__old-price">$29.00</span></p>
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle-6.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__content">
+                                <p class="slide__title">Stomp Brake Fender</p>
+                                <p class="slide__price none">$16.00 <span class="slide__old-price">$19.00</span></p>
+                                <p class="slide__sold">Sold Out</p>
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__content">
+                                <p class="slide__title">Boosted Belt Kit</p>
+                                <p class="slide__price">$25.00 <span class="slide__old-price none">$19.00</span></p>
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle-1.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__content">
+                                <p class="slide__title">Bearing Service Kit</p>
+                                <p class="slide__price">$50.00 <span class="slide__old-price none">$19.00</span></p>
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle-2.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__contentt">
+                                <p class="slide__title">Boosted Pulley / Belt Upgrade Kit</p>
+                                <p class="slide__price">$75.00 <span class="slide__old-price none">$19.00</span></p>
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="slide__img">
+                                <img src="./img/accessories/Rectangle-3.jpg" alt="Slider item">
+                            </div>
+                            <div class="slide__content">
+                                <p class="slide__title">Boosted Skid Plates</p>
+                                <p class="slide__price">$20.00 <span class="slide__old-price none">$19.00</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="slide__btn slide__prev">
+                        <img src="./img/icons/left-arrow.svg" alt="left-arrow">
+                    </button>
+                    <button class="slide__btn slide__next">
+                        <img src="./img/icons/right-arrow.svg" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/main.js"></script>
 
 </body>
 

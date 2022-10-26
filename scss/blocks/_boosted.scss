@@ -1,0 +1,36 @@
+.boosted {
+    padding-top: 42px;
+    padding-bottom: 47px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    &__img {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__content {
+        max-width: 340px;
+    }
+
+    &__title {
+        margin-bottom: 21px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    &__text {
+        margin-bottom: 18px;
+        line-height: 22px;
+    }
+
+    &__btn {
+        padding: 5px 16px;
+        line-height: 22px;
+    }
+    
+}

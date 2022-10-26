@@ -1,0 +1,10 @@
+.clips {
+    padding-top: 55px;
+    padding-bottom: 55px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+}
