@@ -1,0 +1,33 @@
+.banner {
+    padding: 15px 30px 35px;
+    background-color: $black-color;
+    color: $white-color;
+}
+
+.banner__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.banner__col {
+    padding: 20px 30px 16px;
+    text-align: center;
+}
+
+.banner__col-img {
+    margin-bottom: 5px;
+}
+
+.banner__col-title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+}
+
+.banner__col-text {
+    max-width: 270px;
+    line-height: 22px;
+}
