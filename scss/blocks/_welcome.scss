@@ -20,14 +20,22 @@
         line-height: 51px;
     }
 
-    &__subtitle{
+    &__subtitle {
         margin-bottom: 22px;
         letter-spacing: 1px;
     }
 
-    &__btn + &__btn {
+    &__btn:nth-child(2){
+        padding: 5px 37px;
+    }
+
+    &__btn+&__btn {
         margin-left: 12px;
     }
 }
 
-
+@media (max-width:1440px) {
+    .welcome{
+        padding-top: 53px;
+    }
+}

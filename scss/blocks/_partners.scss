@@ -1,5 +1,6 @@
 .partners {
     padding: 18px;
+    padding-bottom: 17px;
     background-color: $black-color;
 
     &__wrapper {
@@ -8,6 +9,21 @@
     }
 
     &__logo  + &__logo{
-        margin-left: 22px;
+        margin-left: 20px;
     }
+
+    &__logo:nth-child(1){
+        margin-top: -18px;
+    }
+
+    &__logo:nth-child(3){
+        margin-top: -7px;
+    }
+
+    &__logo:nth-child(4){
+        margin-top: -15px;
+    }
+
 }
+
+

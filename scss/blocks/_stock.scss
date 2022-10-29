@@ -4,20 +4,25 @@
 
     &__content {
         margin-bottom: 20px;
-        padding: 21px 18px 24.5px 17px;
+        padding: 22px 18px 24.5px 17px;
         text-align: center;
+
+        .horizontal-line{
+            margin-bottom: 0;
+        }
     }
 
     &__title {
-        margin-bottom: 17px;
+        margin-bottom: 18px;
         font-size: 32px;
         line-height: 36px;
     }
 
     &__subtitle {
-        max-width: 685px;
+        max-width: 680px;
         margin: 0 auto;
         margin-bottom: 25px;
+        line-height: 19px;
     }
 
     &__body {
